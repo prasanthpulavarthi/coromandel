@@ -1,0 +1,657 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    max-width: 1160px;
+}
+
+/*header*/
+.header{
+    background: url("../images/hero-img.png" ) no-repeat;
+    background-size: 100%;
+  
+    /* height:730px; */
+
+
+}
+header{
+    background-image: linear-gradient( #0D3725 ,#0003);
+}
+
+#navbarNav{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.navbar-light .navbar-toggler{
+    background-color: #ffbc39;
+}
+.header .nav-item .nav-link:hover{
+    color:#F2752A;
+}
+.header .nav-item .nav-link{
+    color:white;
+    font-size: 16px;
+}
+.heading-sec{
+    padding:150px 0px 100px 100px;
+}
+.heading-sec h2{
+    font-size: 70px;
+    font-weight: 200;
+}
+.heading-sec h1{
+    font-size: 80px;
+}
+.turnover{
+    font-size:44px;
+}
+.btn1{
+    width:208px ;
+    background-image: linear-gradient(to right,#F57629 ,#FFB016 );
+    font-weight: bold;
+    
+}
+/*about8*/
+.about .card{
+    border:none;
+}
+.about{
+    margin-top: 100px;
+}
+.about .card img:hover{
+    box-shadow:  -10px 10px  #FFB016;
+    
+}
+.about .card h5{
+    font-size: 22px;
+    color:#5E6052;
+    font-weight: bold;
+}
+.about .card p{
+    font-size: 18px;
+    color:#5E6052;
+}
+.about h3{
+    font-size: 44px;
+    color:#5E6052;
+}
+.about h6{
+    font-size: 15px;
+    color:#F2752A;
+    font-weight: bold;
+}
+/*plant nutrition*/
+.plantnutrition{
+    background-image: url("../images/soil.png");
+
+    
+
+}
+/* .plantnutrition::before{
+    content: url("../images/Image\ 41.png");
+    width:100%;
+}
+.plantnutrition::after{
+    content: url("../images/d.png");
+    width:100%;
+    position:relative;
+    top:10px;
+} */
+.plantnutrition .bg{
+    top:-88px;
+}
+.plantnutrition .bg1{
+    bottom:-95px;
+}
+ .img{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding:40px 0;
+    position: relative;
+    width: 100%;
+} 
+.plantnutrition__image{
+    text-align: end;
+}
+
+
+.farmer_heading{
+    color: white;
+    font-size: 44px;
+    font-family: "Poppins";
+}
+.farmer_para{
+    color: white;
+    font-size: 19px;
+}
+.span_head{
+    font-size: 59px;
+}
+.btn1{
+    width:208px ;
+    background-image: linear-gradient(to right,#F57629 ,#FFB016 );
+    font-weight: bold;
+    
+}
+.frmr{
+    width: 500px;
+}
+/*growth journey*/
+/* .growthjourney::after{
+    content:url("../images/gro2.png");
+    width:100%;
+    
+
+} */
+.growthjourney{
+    padding:100px 0 200px;
+}
+.growthjourney .bg{
+    bottom:0;
+}
+.growthjourney .growthjourney__heading{
+    font-size: 44px;
+    color:#5E6052;
+    font-weight: 300;
+}
+.growthjourney .growthjourney__para{
+    font-size: 16px;
+    color:#5E6052;
+    font-weight: 300;
+    line-height: 25px;
+}
+.growthjourney .growthjourney__plant{
+    margin-right: 50px;
+}
+/*awards*/
+.awards{
+    background-image: url("../images/farmer.png");
+    background-size: cover;
+    margin-top:-100px;
+    position:relative;
+    z-index: 20;
+    
+    
+}
+.awards .awards__firstsec{
+    width: 600px;
+     height:270px;
+}
+.awardsfirstcol{
+    justify-content: space-between;
+}
+.awardsfirstcol .card-title{
+    font-size: 44px;
+}
+.awardsfirstcol .btn{
+    color:#feaa18;
+    border-color: #feaa18;
+    font-weight: bold;
+}
+.awards__firstsec__topimage{
+    padding-bottom: 185px;
+    padding-left: 50px;
+}
+.awards__firstsec__divider{
+    padding-top:25px;
+}
+.award2{
+    background-color: #FFB016;
+    height: 360px;
+    width: 340px;
+}
+.award2 .card-title{
+    font-size: 120px;
+}
+.award2 .card-title span{
+    font-size: 40px;
+}
+.awardscol2{
+    display:flex;
+    justify-content: space-between;
+}
+.awardscol2 .card-title{
+    font-size: 59px;
+}
+.awardscol2 .btn{
+    background-image: linear-gradient(to left,#FFB016 ,#feaa18);
+    width:208px;
+    font-weight: bold;
+    border-radius: 50px;
+    color:white;
+}
+.awards__lastsec img{
+    width:300px;
+    height:320px;
+
+}
+/*gromor*/
+.gromor{
+    /* position: relative;
+    top: 175px; */
+    background-color: white;
+
+    border-bottom-right-radius: 182px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: -142px;
+    padding: 100px 0;
+} 
+.gromor>.container{
+    padding-bottom:100px;
+}
+
+/*chaiman*/
+.chairman{
+    background-image: url("../images/chairmanbackround.png");
+    width:100%;
+    /* height:100vh; */
+    padding-bottom: 70px;
+    margin-top:-10px;
+}
+.chairman .card{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.chairman>.container>.row{
+    justify-content: center;
+    align-items:end;
+    padding-top:185px;
+}
+/*foter*/
+footer{
+    background-color: #FFB016;
+}
+/* .footer__content{
+    padding-top: 10px;
+}  */
+.footer__content li{
+    list-style-type: none;
+}
+.footer__content li a {
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+.footer__content li:first-child a {
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer__bg {
+    background-color: #ffbc39;
+   border-radius:20px;
+   border:none;
+   color:white;
+} 
+.form-control::-webkit-input-placeholder {
+    color: white;
+  }
+.btn-outline{
+    color:white;
+    border:1px solid white;
+    border-radius: 20px;
+}
+.footer__border{
+    position: relative;
+    top: -30px;
+    overflow-x: auto;
+    width: 100%;
+
+}
+
+@media only screen and (min-width:320px) and (max-width:576px){
+    /* .navbar{
+        position:fixed;
+        width:100%;
+    } */
+    /*header*/
+    .navLogo{
+        width:100px;
+    }
+    .heading-sec{
+        padding:100px 0 75px 20px ;
+
+    }
+    .heading-sec h2 {
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .heading-sec h1 {
+        font-size: 16px;
+    }
+    .btn1{
+        font-size: 9px;
+        width:80px;
+    }
+    
+    
+    .heading-turn{
+        display: none;
+    }
+    /*plan nutrition*/
+    .plantnutrition::before{
+        content: "";
+        width:100%;
+    }
+    .plantnutrition::after{
+        content: "";
+       
+    }
+    .frmr{
+        width: 0px;
+    }
+    
+    .plantnutrition .span_head {
+        font-size: 24px;
+    }
+    .plantnutrition .farmer_heading {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .plantnutrition .farmer_para {
+        font-size: 12px;
+       
+        padding-left: 10px;
+    }
+    .plantnutrition .plantnutrition__button{
+        padding-left:10px;
+    }
+    /*growth journey*/
+    .growthjourney::after{
+        content:"";
+        
+    
+    }
+    .growthjourney .bg{
+        display: none;
+    }
+    .growthjourney .row{
+        flex-direction: column;
+    }
+    .growthjourney .growthjourney__images{
+        display: flex;
+
+    }
+    /*awards*/
+    .awards{
+        background-image: none;
+        height:auto;
+    }
+    .awardsfirstcol{
+        flex-direction: column;
+    }
+    .awards .awards__firstsec {
+        width: auto;
+        height:auto;
+        /* height: 270px; */
+    }
+    .awardscol2{
+        display: none;
+    }
+    /*chairman*/
+    .gromor{
+        position: static;
+        top:0px;
+    }
+    .chairman{
+        height:auto;
+        padding-bottom:0px;
+    }
+
+    
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    /* .navbar{
+        position: fixed;
+        width:100%;
+    } */
+    /*header*/
+    .heading-sec {
+        padding: 150px 0px 0px 27px;
+    }
+    .heading-sec h2 {
+        font-size: 24px;
+       
+    }
+    .heading-sec h1 {
+        font-size: 26px;
+    }
+    .btn1 {
+        width: 100px;
+        font-size: 12px;
+    }
+    /*about*/
+    .about .card p{
+        font-size: 12px;
+    }
+    .about .card h5{
+        font-size: 14px;
+    }
+    /*plantnutrition*/
+    .background_img::before{
+        content: "";
+        width:100%;
+    }
+    .background_img::after{
+        content: "";
+       
+    }
+      /*growth journey*/
+      .growthjourney::after{
+        content:"";
+        
+    
+    }
+    .growthjourney .bg{
+        display: none;
+    }
+    .plantnutrition::before{
+        content: "";
+        width:100%;
+    }
+    .plantnutrition::after{
+        content: "";
+       
+    }
+    .frmr{
+        width: 0px;
+    }
+    
+    .plantnutrition .span_head {
+        font-size: 24px;
+    }
+    .plantnutrition .farmer_heading {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .plantnutrition .farmer_para {
+        font-size: 12px;
+       
+        padding-left: 10px;
+    }
+    .plantnutrition .plantnutrition__button{
+        padding-left:10px;
+    }
+    /*growth journey*/
+    .growthjourney::after{
+        content:"";
+        
+    
+    }
+    .growthjourney .row{
+        flex-direction: column;
+    }
+    .growthjourney .growthjourney__images{
+        display: flex;
+
+    }
+    /*awards*/
+    .awards{
+        background-image: none;
+        height:auto;
+    }
+    .awardsfirstcol{
+        flex-direction: column;
+    }
+    .awards .awards__firstsec {
+        width: auto;
+        height:auto;
+        /* height: 270px; */
+    }
+    .awardscol2{
+        display: none;
+    }
+    /*chairman*/
+    .gromor{
+        position: static;
+        top:0px;
+    }
+    .chairman{
+        height:auto;
+        padding-bottom:0px;
+    }
+
+    
+    
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    /* .navbar{
+        position:fixed;
+        width:100%;
+    } */
+    /*header*/
+    .heading-sec {
+        padding: 30px 0px 35px 68px;
+    }
+    .heading-sec h2 {
+        font-size: 32px;
+        font-weight: 200;
+    }
+    .heading-sec h1 {
+        font-size: 40px;
+    }
+    .btn1 {
+        width: 140px;
+    }
+    /*plantnutrition*/
+    .background_img::before{
+        content: "";
+        width:100%;
+    }
+    .background_img::after{
+        content: "";
+       
+    }
+      /*growth journey*/
+      .growthjourney::after{
+        content:"";
+        
+    
+    }
+    .growthjourney .bg{
+        display: none;
+    }
+      .plantnutrition::before{
+        content: "";
+        width:100%;
+    }
+    .plantnutrition::after{
+        content: "";
+       
+    }
+    .frmr{
+        width: 0px;
+    }
+    
+    .plantnutrition .span_head {
+        font-size: 24px;
+    }
+    .plantnutrition .farmer_heading {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .plantnutrition .farmer_para {
+        font-size: 12px;
+       
+        padding-left: 10px;
+    }
+    .plantnutrition .plantnutrition__button{
+        padding-left:10px;
+    }
+    /*growth journey*/
+    .growthjourney::after{
+        content:"";
+        
+    
+    }
+    .growthjourney .row{
+        flex-direction: column;
+    }
+    .growthjourney .growthjourney__images{
+        display: flex;
+
+    }
+    /*awards*/
+    .awards{
+        background-image: none;
+        height:auto;
+    }
+    .awardsfirstcol{
+        flex-direction: column;
+    }
+    .awards .awards__firstsec {
+        width: auto;
+        height:auto;
+        /* height: 270px; */
+    }
+    .awardscol2{
+        display: none;
+    }
+    /*chairman*/
+    .gromor{
+        position: static;
+        top:0px;
+    }
+    .chairman{
+        height:auto;
+        padding-bottom:0px;
+    }
+
+    
+}
+@media only screen and (min-width:993px) and (max-width:1250px){
+    /* .navbar{
+        width:unset;
+    } */
+    /*header*/
+    .heading-sec {
+        padding: 80px 0px 40px 100px;
+    }
+    .heading-sec h2 {
+        font-size: 50px;
+    }
+    .heading-sec h1 {
+        font-size: 60px;
+    }
+    .btn1 {
+        width: 170px;
+        background-image: linear-gradient(to right,#F57629 ,#FFB016 );
+        font-weight: bold;
+    }
+    /*plant nutrition*/
+    .background_img::before{
+        content: "";
+        width:100%;
+    }
+    .background_img::after{
+        content: "";
+       
+    }
+}
